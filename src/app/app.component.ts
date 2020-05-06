@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lab-test';
+  color:string;
+  recieve($e){
+    this.color=$e
+    
+  }
 }
